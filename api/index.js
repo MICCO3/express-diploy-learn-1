@@ -9,9 +9,9 @@ app.use((req,res,next)=>{
 })
 app.use("/products",productRouter)
 
-const handler = severless(app);
-export default handler;
+ export const handler = severless(app);
+ 
 
-export {app}
+//export {app}
 
 
