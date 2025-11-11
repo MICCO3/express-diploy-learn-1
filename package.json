@@ -1,0 +1,21 @@
+{
+  
+  "name": "express-app-1",
+  "version": "1.0.0",
+  "type":"module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node local.js",
+    "dev": "nodemon local.js"
+  },
+  "keywords": [],
+  
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "serverless-http": "^4.0.0"
+  }
+}
